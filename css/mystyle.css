@@ -18,7 +18,11 @@ body{
 .banner{
   height: 1rem;
 }
-.style_logo{
+.style_logo img{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 
 }
 #top-left ul {
@@ -89,4 +93,36 @@ body{
   background-color: rgba(255, 217, 0, 0.685);
   color: azure;
   font-weight: bolder;
+}
+.user-content{
+  background-color: azure;
+  max-width: 50%;
+}
+div.user-content-title{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  vertical-align: top;
+}
+div.user-content-title svg,h6{
+  margin: 5px;
+}
+div.user-content p {
+  text-align: right;
+
+}
+div.user-content-link{
+  border: solid 1px rgb(182, 155, 6);
+  border-radius: 5px;
+}
+div.user-content-link a{
+  text-decoration: none;
+  font-weight: 200;
+  color: black;
+  margin-bottom: 5px;
+  font-family: "myfont";
+  margin: 2px;
+}
+a#user-attach {
+  float: right;
 }
